@@ -14,4 +14,4 @@ Maybe you've already heard of fnm, gvm, nvm, pyenv, phpenv, etc. However, none o
 - Version crawler and main project are separated to ensure faster response and higher stability.
 - No need for plugins, just out of the box.
 - Installs SDKs in local disk instead of docker containers.
-- Easy to use, you only need to focus on about 6 subcommands of **vmr**.
+- Easy to use, you only need to focus on about 6 subcommands of **VMR**.
