@@ -9,6 +9,8 @@
 - 支持40+编程语言和工具。
 - 支持对每个项目锁定SDK版本。
 - 支持MacOS/Windows/Linux。
+- 无需插件，开箱即用。
+- 更快，更简单。
 
 [GitHub](https://github.com/gvcgo/version-manager)
 [Get Started](/zh-cn/quickstart)

@@ -9,6 +9,8 @@
 - Supports 40+ programming languages and tools.
 - Supports locking SDK version for each project.
 - Supports MacOS/Windows/Linux.
+- No plugins.
+- Easier & Faster.
 
 [GitHub](https://github.com/gvcgo/version-manager)
 [Get Started](/quickstart)
