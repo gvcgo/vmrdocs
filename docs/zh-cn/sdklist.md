@@ -8,7 +8,7 @@
 - [Python](https://anaconda.org/conda-forge/python/files)
 - [PyPy](https://anaconda.org/conda-forge/pypy/files)
 - [PHP](https://github.com/pmmp/PHP-Binaries)
-- [Kotlin](https://www.groovy-lang.org)
+- [Kotlin](https://kotlinlang.org/)
 - [Scala](https://www.scala-lang.org )
 - [Flutter(Dart)](https://flutter.dev)
 - [.Net](https://dotnet.microsoft.com)
