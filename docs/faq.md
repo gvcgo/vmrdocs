@@ -21,6 +21,6 @@ Of course. All the SDKs are downloaded from the official websites or github rele
 
 In **$HOME/.vm/vm_env.sh**.
 
-### What is reverse proxy？
+### 6. What is reverse proxy？
 
 **https://gvc.1710717.xyz/proxy/** is deployed on CloudFlare for github accelerations.
