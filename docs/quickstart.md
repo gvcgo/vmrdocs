@@ -9,7 +9,7 @@ Run the command below in terminal.
 curl --proto '=https' --tlsv1.2 -sSf https://gvc.1710717.xyz/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.sh | sh
 ```
 
-### Windows下的安装
+### For Windows
 
 Run the command below in powershell.
 
