@@ -15,7 +15,7 @@ Try to set the **reverse proxy**.
 
 ### 4. Is it safe to use **VMR**?
 
-Of course. All the SDKs are downloaded from the official websites or github releases.
+Of course. All the SDKs are downloaded from the official websites or github releases. You can check the version info [here](https://github.com/gvcgo/resources).
 
 ### 5. Where does **VMR** store the envs for SDKs?
 
