@@ -15,7 +15,7 @@
 
 ### 4. 下载源安全吗？
 
-安全。所有资源均来自各种SDK的官方下载链接或者github仓库的release。你可以在[这里](https://github.com/gvcgo/resources)查看所有的版本SDK信息。
+安全。所有资源均来自各种SDK的官方下载链接或者github仓库的release。你可以在[这里](https://github.com/gvcgo/resources)查看所有的版本SDK信息，包括具体SDK的下载地址。
 
 ### 5. MacOS/Linux下，环境变量放在什么地方？
 
