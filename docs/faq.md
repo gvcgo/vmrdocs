@@ -20,3 +20,7 @@ Of course. All the SDKs are downloaded from the official websites or github rele
 ### 5. Where does **VMR** store the envs for SDKs?
 
 In **$HOME/.vm/vm_env.sh**.
+
+### What is reverse proxy？
+
+**https://gvc.1710717.xyz/proxy/** is deployed on CloudFlare for github accelerations.
