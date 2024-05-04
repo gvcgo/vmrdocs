@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](https://raw.githubusercontent.com/moqsien/img_repo/main/vmr_logo_trans.png)
+![logo](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_logo_trans.png)
 
 # 0.1.x
 
