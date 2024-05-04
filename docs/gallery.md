@@ -1,11 +1,11 @@
-- MacOS演示
+- Demo for MacOS
 
 ![demo](https://github.com/moqsien/img_repo/raw/main/vm.gif)
 
-- Windows演示
+- Demo for Windows
 
 ![demo](https://github.com/moqsien/img_repo/raw/main/vm_win.gif)
 
-- Linux演示
+- Demo for Linux
 
 ![demo](https://github.com/moqsien/img_repo/raw/main/vm_linux.gif)
