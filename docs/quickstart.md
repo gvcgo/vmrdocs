@@ -6,7 +6,7 @@
 Run the command below in terminal.
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://gvc.1710717.xyz/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.sh | sh
 ```
 
 ### For Windows
@@ -14,7 +14,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://gvc.1710717.xyz/proxy/https://raw.g
 Run the command below in powershell.
 
 ```bash
-powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://gvc.1710717.xyz/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.ps1')"
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.ps1')"
 ```
 
 !> If you are using **VMR** on Windows11, you need to enable the **Developer Mode** as **VMR** requires to create symbolic links. If you're on Windows10, and any creating-symbolic-links-failure occurrs, you can try **VMR** with **Admin Privilege**.

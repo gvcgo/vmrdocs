@@ -6,14 +6,14 @@
 复制以下命令，并在终端中执行。
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://gvc.1710717.xyz/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.sh | sh
 ```
 
 ### Windows下的安装
 
 复制以下命令，并在Powershell中执行。
 ```bash
-powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://gvc.1710717.xyz/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.ps1')"
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.ps1')"
 ```
 
 !> 如果你的系统是Win11，你需要打开**开发者模式**，因为vmr需要创建符号链接。如果你的系统是Win10，并且遇到创建符号链接失败的情况，你可以尝试在管理员权限下完成操作(**一般情况下无需管理员权限**)。
