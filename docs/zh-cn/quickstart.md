@@ -30,7 +30,7 @@ powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://gvc.17
 
 !> 如果你的系统是Win11，你需要打开**开发者模式**，因为vmr需要创建符号链接。如果你的系统是Win10，并且遇到创建符号链接失败的情况，你可以尝试在管理员权限下完成操作(**一般情况下无需管理员权限**)。
 
-!> 使用go源码编译得到的Windows可执行文件，经常被检测为病毒，这是**误报**，目前没有较好的办法。关于解释，详见[go语言官方的解释](https://go.dev/doc/faq#virus)。 这种情况下，你需要手动将一些目录添加到信任列表中。需要添加到信任的目录有 **$HOME**, **$HOME/.vm**, 以及你指定的**SDK安装目录**。
+!> 使用go源码编译得到的Windows可执行文件，经常被检测为病毒，这是**误报**，目前没有较好的办法。关于解释，详见[go语言官方的解释](https://go.dev/doc/faq#virus)。 这种情况下，你需要手动将一些目录添加到信任列表中。需要添加到信任的目录有 **$HOME**, **$HOME/.vm**, 以及你指定的**SDK安装目录**，可以参考这个[帖子](https://blog.csdn.net/u_say2what/article/details/134669122)。
 
 !> **VMR**定制了**source**命令，可以用于在当前Powershell中刷新Path环境变量。
 
