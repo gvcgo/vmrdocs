@@ -19,7 +19,7 @@ powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.gi
 
 !> If you are using **VMR** on Windows11, you need to enable the **Developer Mode** as **VMR** requires to create symbolic links. If you're on Windows10, and any creating-symbolic-links-failure occurrs, you can try **VMR** with **Admin Privilege**.
 
-!> Binaries built from go source code shows Virus Positive somehow on Windows. It's Totally False Positive. For details, Please see [here](https://forum.golangbridge.org/t/my-compiled-exe-file-is-declared-as-a-virus/34038). When this happens, you need to manually add $HOME, $HOME\.vm, and the SDK-Installation-Dir you have specified, to the Trusted List.
+!> Binaries built from go source code shows Virus Positive somehow on Windows. It's Totally False Positive. For details, Please see [here](https://go.dev/doc/faq#virus). When this happens, you need to manually add $HOME, $HOME\.vm, and the SDK-Installation-Dir you have specified, to the Trusted List.
 
 !> **VMR** customized command **source** for refreshing **Path** env in current powershell.
 
