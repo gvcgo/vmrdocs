@@ -10,7 +10,7 @@
 - Supports locking SDK version for each project.
 - Supports MacOS/Windows/Linux.
 - No plugins.
-- Easier & Faster.
+- Faster & Easier & Stabler.
 
 [GitHub](https://github.com/gvcgo/version-manager)
 [Get Started](/quickstart)
