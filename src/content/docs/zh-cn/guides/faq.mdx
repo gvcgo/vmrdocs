@@ -1,0 +1,38 @@
+---
+title: 常见问题
+description: 经常被问到的问题.
+---
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+## 在MacOS/Linux下，环境变量存放在哪里?
+
+<Tabs>
+  <TabItem label="Others" icon="seti:shell">
+    ```bash
+    $HOME/.vmr/vmr.sh
+    ```
+  </TabItem>
+  <TabItem label="Fish" icon="seti:shell">
+    ```bash
+    $HOME/.vmr/vmr.fish
+    ```
+  </TabItem>
+</Tabs>
+
+## 需要使用source刷新环境变量?
+
+VMR为powershell贴心地定制了**"source"**命令，即使在Windows下，用户也能愉快的使用source来刷新环境变量.
+可以在下面的路径下查看具体定制的内容，注意不要随意改动.
+```text
+$HOME\Documents\WindowsPowerShell\profile.ps1
+```
+
+## 在Windows下有一些应用无法使用？
+
+例如agg, php, 等等. 可能是因为你的系统缺少Microsoft Visual C++ Redistributable. 你可以从[这里](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)下载后安装.
+
+## VMR安全可靠吗?
+
+必须的. 所有的SDK都来自**官网s**, 或者 **github的releases**, 或者 **Anaconda Forge**. 
+另外，VMR不提供源码编译功能，因为这样做不利于稳定性和跨平台. 
+如果你有任何疑问，可以去VMR的[版本仓库](https://github.com/gvcgo/vsources)查看具体下载链接.

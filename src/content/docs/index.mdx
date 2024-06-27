@@ -1,0 +1,42 @@
+---
+title: Welcome to VMR
+description: Get started with VMR.
+template: splash
+hero:
+  tagline: A General Version Manager for Multiple SDKs.
+  image:
+    file: ../../assets/vmr_kitty.png
+  actions:
+    - text: Quick Start
+      link: /starts/quickstart/
+      icon: right-arrow
+      variant: primary
+    - text: Star on Github
+      link: https://github.com/gvcgo/version-manager
+      icon: github
+---
+
+import { Card, CardGrid, Icon } from '@astrojs/starlight/components';
+
+## Features
+
+<CardGrid stagger>
+	<Card title="Cross-platform" icon="list-format">
+		Supports Windows/MacOS/Linux.
+	</Card>
+	<Card title="Supports multi SDKs" icon="list-format">
+		Supports more than 60 SDKs and Tools.
+	</Card>
+	<Card title="Easy to use" icon="list-format">
+		Built with Terminal UI inspired by lazygit, more intuitive.
+	</Card>
+	<Card title="Fast & Stable" icon="rocket">
+		Version lists for SDKs are cached in [vsources](https://github.com/gvcgo/vsources).
+	</Card>
+	<Card title="No plugins" icon="puzzle">
+		No plugins needed, just out of the box.
+	</Card>
+	<Card title="Lock SDK version for a project" icon="seti:lock">
+		Supports locking SDK version for each project.
+	</Card>
+</CardGrid>

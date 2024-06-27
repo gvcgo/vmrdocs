@@ -1,0 +1,42 @@
+---
+title: 欢迎来到VMR
+description: Get started with VMR.
+template: splash
+hero:
+  tagline: VMR是一个支持多款SDK的通用版本管理器.
+  image:
+    file: ../../../assets/vmr_kitty.png
+  actions:
+    - text: 快速开始
+      link: /zh-cn/starts/quickstart/
+      icon: right-arrow
+      variant: primary
+    - text: 去点亮Star
+      link: https://github.com/gvcgo/version-manager
+      icon: github
+---
+
+import { Card, CardGrid, Icon } from '@astrojs/starlight/components';
+
+## Features
+
+<CardGrid stagger>
+	<Card title="跨平台" icon="list-format">
+		支持 Windows/MacOS/Linux.
+	</Card>
+	<Card title="支持多种SDK" icon="list-format">
+		支持60多种SDK和编程工具.
+	</Card>
+	<Card title="方便好用" icon="list-format">
+		受到lazygit启发，内置TUI，使用更符合直觉.
+	</Card>
+	<Card title="快速且稳定" icon="rocket">
+		因为VMR的版本信息都缓存在[vsources](https://github.com/gvcgo/vsources)仓库.
+	</Card>
+	<Card title="无需插件" icon="puzzle">
+		无需烦人的插件，开箱即用.
+	</Card>
+	<Card title="支持对项目锁定SDK版本" icon="seti:lock">
+		每个项目都可以锁定不同的SDK版本，编辑器或者IDE打开模拟终端时，自动切换至锁定版本.
+	</Card>
+</CardGrid>
