@@ -30,6 +30,30 @@ import { Tabs, TabItem, Aside } from '@astrojs/starlight/components';
   但不能保证误报不会发生. 如果出现误报, 你可以把和VMR有关的一些文件夹都添加到信任列表, 或者尝试手动安装一下VMR的[签名证书](https://github.com/gvcgo/version-manager/blob/main/scripts/vmr.pfx).
 </Aside>
 
+## 安装速度太慢，怎么办？
+
+在你的终端使用代理。
+<Tabs>
+  <TabItem label="Windows" icon="seti:windows">
+    ```bash
+    $env:all_proxy="http://127.0.0.1:xxxx"
+    # $env:all_proxy="socks5://127.0.0.1:xxxx"
+    ```
+  </TabItem>
+  <TabItem label="MacOS" icon="apple">
+    ```bash
+    export ALL_PROXY="http://127.0.0.1:xxxx"
+    # export ALL_PROXY="socks5://127.0.0.1:xxxx"
+    ```
+  </TabItem>
+  <TabItem label="Linux" icon="linux">
+    ```bash
+    export ALL_PROXY="http://127.0.0.1:xxxx"
+    # export ALL_PROXY="socks5://127.0.0.1:xxxx"
+    ```
+  </TabItem>
+</Tabs>
+
 ## 我能定制SDK的安装路径吗?
 
 可以. 在首次安装VMR的过程中，会有提示，输入自己想要指定的目录即可. 
