@@ -3,8 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://gvcgo.github.io',
-	base:"/vmrdocs",
+	site: 'https://vdocs.vmr.us.kg',
+	// base:"/vmrdocs",
 	integrations: [
 		starlight({
 			// site: 'https://vmrdocs.github.io',
