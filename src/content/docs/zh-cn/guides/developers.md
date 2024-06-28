@@ -5,7 +5,7 @@ description: 贡献者指南.
 
 ## 数据流转过程
 
-![flow.png](../../../assets/vmr_flow.png)
+![flow.png](../../../../assets/vmr_flow.png)
 
 - [vcollector](https://github.com/gvcgo/vcollector) 收集版本信息并上传至版本仓库.
 - [vsources](https://github.com/gvcgo/vsources) 版本仓库.

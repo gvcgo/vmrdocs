@@ -16,19 +16,69 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Start Here',
+					translations:{
+						"zh-CN":"这里开始",
+						"en":"Start Here",
+					},
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Quick Start', link: '/starts/quickstart/' },
-						{ label: 'Core Concepts', link: '/starts/concepts/' },
-						{ label: "What's Supported", link: '/starts/sdklist/' },
+						{ 
+							label: 'Quick Start', 
+							link: '/starts/quickstart/',
+							translations:{
+								"zh-CN":"快速开始",
+								"en":"Quick Start",
+							}
+						 },
+						{ 
+							label: 'Core Concepts', 
+							link: '/starts/concepts/',
+							translations:{
+								"zh-CN":"核心概念",
+								"en":"Core Concepts",
+							}
+						 },
+						{ 
+							label: "What's Supported", 
+							link: '/starts/sdklist/',
+							translations:{
+								"zh-CN":"支持哪些SDK?",
+								"en":"What's Supported",
+							},
+						},
 					],
 				},
 				{
 					label:"Guides",
+					translations:{
+						"zh-CN":"指南",
+						"en":"Guides",
+					},
 					items:[
-					    {label:"Documents", link:"/guides/tutorial/"},
-						{label:"FAQs", link:"/guides/faq/"},
-						{label:"For Contributors", link:"/guides/developers/"},
+					    {
+							label:"Documents", 
+							link:"/guides/tutorial/",
+							translations:{
+								"zh-CN":"文档",
+								"en":"Documents",
+							},
+						},
+						{
+							label:"FAQs", 
+							link:"/guides/faq/",
+							translations:{
+								"zh-CN":"常见问题",
+								"en":"FAQs",
+							},
+						},
+						{
+							label:"For Contributors", 
+							link:"/guides/developers/",
+							translations:{
+								"zh-CN":"贡献者指南",
+								"en":"For Contributors",
+							},
+						},
 					]
 				},
 			],
