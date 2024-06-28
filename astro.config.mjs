@@ -6,6 +6,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Docs',
+			title: {
+				en: 'Docs',
+				'zh-CN': '文档',
+			},
 			logo: {
 				light: './src/assets/vmr_logo.png',
 				dark: './src/assets/vmr_logo_white.png',
