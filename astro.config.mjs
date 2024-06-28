@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			site: 'https://vmrdocs.github.io',
+			// site: 'https://vmrdocs.github.io',
 			title: 'Docs',
 			title: {
 				en: 'Docs',
