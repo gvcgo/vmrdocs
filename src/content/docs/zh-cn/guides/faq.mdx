@@ -33,7 +33,7 @@ $HOME\Documents\WindowsPowerShell\profile.ps1
 
 ## VMR安全可靠吗?
 
-必须的. 所有的SDK都来自**官网s**, 或者 **github的releases**, 或者 **Anaconda Forge**. 
+必须的. 所有的SDK都来自**官网**, 或者 **github的releases**, 或者 **Anaconda Forge**. 
 另外，VMR不提供源码编译功能，因为这样做不利于稳定性和跨平台. 
 如果你有任何疑问，可以去VMR的[版本仓库](https://github.com/gvcgo/vsources)查看具体下载链接.
 
@@ -41,3 +41,11 @@ $HOME\Documents\WindowsPowerShell\profile.ps1
 
 ![show.png](../../../../assets/vmr_terminal_size.png)
 把终端窗口调大一些!
+
+## 关于数据库安装
+
+VMR只负责安装，不进行配置。你可以到SDK安装目录(默认是$HOME/.vmr/versions/)下面查看，然后自行配置用户名、密码、数据库文件位置、开机启动等等。
+
+## 关于华为鸿蒙不能识别通过VMR安装的Python3.8.10的问题
+
+去看这个[issue](https://github.com/gvcgo/version-manager/issues/75)，这与大厂程序的傻瓜检测方式有关，只能曲线补救。

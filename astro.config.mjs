@@ -50,7 +50,7 @@ export default defineConfig({
 							link: '/starts/sdklist/',
 							translations:{
 								"zh-CN":"支持哪些SDK?",
-								"en":"What's Supported",
+								"en":"What's Supported?",
 							},
 						},
 					],
