@@ -1,5 +1,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import solidJs from "@astrojs/solid-js";
+import robotsTxt from "astro-robots-txt";
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
@@ -97,6 +100,8 @@ export default defineConfig({
 					lang:"zh-CN",
 				},
 			},
+			customCss: ['./src/assets/landing.css'],
 		}),
+		solidJs(), robotsTxt(), sitemap(),
 	],
 });
