@@ -16,6 +16,7 @@ export default defineConfig({
 				en: 'Docs',
 				'zh-CN': '文档',
 			},
+			favicon: './src/assets/favicon.svg',
 			logo: {
 				light: './src/assets/vmr_logo.png',
 				dark: './src/assets/vmr_logo_white.png',
