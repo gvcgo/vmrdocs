@@ -49,3 +49,7 @@ VMR只负责安装，不进行配置。你可以到SDK安装目录(默认是$HOM
 ## 关于华为鸿蒙不能识别通过VMR安装的Python3.8.10的问题
 
 去看这个[issue](https://github.com/gvcgo/version-manager/issues/75)，这与大厂程序的傻瓜检测方式有关，只能曲线补救。
+
+## 创建目录的软链接失败？
+
+FAT32 and exFAT格式的磁盘不支持创建软链接。所以，在Windows下，必须将vmr或者SDK的安装目录放在NTFs格式的磁盘中。
