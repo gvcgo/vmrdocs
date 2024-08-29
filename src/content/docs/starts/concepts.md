@@ -25,7 +25,7 @@ For reverse proxy, we refers to **"https://proxy.vmr.us.kg/proxy/"**, which is u
 
 ## Lock the SDK version for a project.
 
-VMR will generate a file named ".vmr.lock" in the project. This file will be used for checking the SDK versions for current project by VMR.
+VMR will generate a file named ".vmr.lock" in the project. This file will be used for checking the SDK versions for current project by VMR. For details, see [here](https://vdocs.vmr.us.kg/guides/tutorial/#key-map-hints-for-available-version-list).
 
 <!-- 
 # Plugins for Neovim
