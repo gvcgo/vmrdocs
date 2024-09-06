@@ -36,7 +36,7 @@
 }
 
 [data-has-hero] header site-search > button {
-	display: none !important;
+	display: flex !important;
 }
 
 [data-has-hero] .hero img {
