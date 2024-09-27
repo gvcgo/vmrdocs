@@ -3,6 +3,27 @@ title: Docs For CLI
 description: How to use VMR in CLI Mode.
 ---
 
+import {Aside } from '@astrojs/starlight/components';
+
+## Set Proxy
+
+<Aside type="caution" title="Note">
+  Proxy is highly recommended if github.com reponds slowly.
+</Aside>
+
+```bash
+vmr sp "http(socks5)://127.0.0.1:xxxx"
+```
+
+## Set Reverse Proxy
+
+<Aside type="caution" title="Note">
+  Choose **either** reverse proxy **or** proxy.
+</Aside>
+
+```bash
+vmr sr "https://proxy.vmr.us.kg/proxy/"
+```
 
 ## Show help info.
 

@@ -3,6 +3,26 @@ title: CLI教程
 description: 在命令行模式下使用VMR.
 ---
 
+## 设置代理
+
+<Aside type="caution" title="Note">
+  强烈推荐使用自己的代理，如果你访问github速度过慢。
+</Aside>
+
+```bash
+vmr sp "http(socks5)://127.0.0.1:xxxx"
+```
+
+## 设置反向代理
+
+<Aside type="caution" title="Note">
+  代理和反向代理，选其一即可。但推荐使用自己的代理，因为比较稳定。
+</Aside>
+
+```bash
+vmr sr "https://proxy.vmr.us.kg/proxy/"
+```
+
 ## 显示帮助信息
 
 ```bash
