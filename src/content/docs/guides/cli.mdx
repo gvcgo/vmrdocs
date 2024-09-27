@@ -1,0 +1,59 @@
+---
+title: Docs For CLI
+description: How to use VMR in CLI Mode.
+---
+
+
+## Show help info.
+
+```bash
+vmr -h
+```
+
+## Show available SDK list.
+
+```bash
+vmr show
+```
+
+## Show available version list for an SDK.
+
+```bash
+vmr search <sdk-name>
+```
+
+## Show local installed versions for an SDK.
+
+```bash
+vmr local <sdk-name>
+```
+
+## Install and switch to the specific version of an SDK globally.
+
+```bash
+vmr use <sdk-name@version>
+```
+
+## Temporarily switch to specific version of an SDK in current termianl session.
+
+```bash
+vmr use -s <sdk-name@version>
+```
+
+## Lock the SDK version for current project.
+
+```bash
+vmr use -l <sdk-name@version>
+```
+
+## Uninstall the specific version of an SDK. (But not the one currently in use.)
+
+```bash
+vmr uninstall <sdk-name@version>
+```
+
+## Uninstall all local installed versions for an SDK. (Including the one currently in use.)
+
+```bash
+vmr uninstall <sdk-name@all>
+```

@@ -1,0 +1,58 @@
+---
+title: CLI教程
+description: 在命令行模式下使用VMR.
+---
+
+## 显示帮助信息
+
+```bash
+vmr -h
+```
+
+## 显示可以安装的SDK列表
+
+```bash
+vmr show
+```
+
+## 搜索某个SDK在当前系统环境下的可安装版本
+
+```bash
+vmr search <sdk-name>
+```
+
+## 搜索某个SDK的已安装版本
+
+```bash
+vmr local <sdk-name>
+```
+
+## 全局安装或者切换到某个SDK的某个版本
+
+```bash
+vmr use <sdk-name@version>
+```
+
+## 在session模式(临时)安装或切换到某个SDK的某个版本
+
+```bash
+vmr use -s <sdk-name@version>
+```
+
+## 对当前项目锁定SDK版本
+
+```bash
+vmr use -l <sdk-name@version>
+```
+
+## 卸载某个SDK的某个版本（不包含正在使用的当前版本）
+
+```bash
+vmr uninstall <sdk-name@version>
+```
+
+## 卸载某个SDK的所有版本(包含正在使用的当前版本)
+
+```bash
+vmr uninstall <sdk-name@all>
+```

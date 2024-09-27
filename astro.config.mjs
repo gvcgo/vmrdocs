@@ -67,11 +67,19 @@ export default defineConfig({
 					},
 					items:[
 					    {
-							label:"Documents", 
+							label:"TUIDocs", 
 							link:"/guides/tutorial/",
 							translations:{
-								"zh-CN":"文档",
-								"en":"Documents",
+								"zh-CN":"TUI文档",
+								"en":"Docs For TUI",
+							},
+						},
+						{
+							label:"CLIDocs", 
+							link:"/guides/cli/",
+							translations:{
+								"zh-CN":"CLI文档",
+								"en":"Docs For CLI",
 							},
 						},
 						{
