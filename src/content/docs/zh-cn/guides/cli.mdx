@@ -78,3 +78,32 @@ vmr uninstall <sdk-name@version>
 ```bash
 vmr uninstall <sdk-name@all>
 ```
+
+## SDK列表没找到?
+
+<Aside type="caution" title="Note">
+  如果VMR出现**No SDK Found**错误提示, 大概率是你需要设置[代理](/zh-cn/guides/tutorial/#设置代理).
+</Aside>
+
+## 如何开启多线程下载模式?
+
+把默认的下载线程数设置为大于1的值即可.参考下面的命令.注意，可能有些下载源不支持多线程下载，会导致下载失败，这种情况下把线程数设置回1即可。
+```bash
+vmr st 2
+```
+
+## 如何开启/关闭定制下载源?
+如下命令(以及相关配置文件)。有默认的配置，可以自行根据需要编辑。
+```bash
+# $HOME/.vmr/customed_mirrors.toml
+vmr tm
+```
+默认的定制源配置在[这里](https://github.com/gvcgo/vsources/blob/main/mirrors/customed_mirrors.toml).
+
+## 如果你还是觉得VMR展示列表的响应慢，怎么办？
+
+可以在VMR的配置文件中，设置如下字段。
+```bash
+VersionHostUrl='https://gitee.com/moqsien/vsources/raw/main'
+```
+这是VMR版本仓库的国内镜像仓库。

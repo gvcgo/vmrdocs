@@ -78,3 +78,24 @@ vmr uninstall <sdk-name@version>
 ```bash
 vmr uninstall <sdk-name@all>
 ```
+
+## SDK List not found?
+
+<Aside type="caution" title="Note">
+  If VMR shows **No SDK Found**, you probably need to set a [proxy](/guides/tutorial/#set-proxy) for VMR.
+</Aside>
+
+## How to enable multi-thread download?
+
+Set number of threads > 1.
+```bash
+vmr st 2
+```
+
+## How to toggle customed mirrors?
+
+```bash
+# $HOME/.vmr/customed_mirrors.toml
+vmr tm
+```
+The default customed mirrors is available [here](https://github.com/gvcgo/vsources/blob/main/mirrors/customed_mirrors.toml).
