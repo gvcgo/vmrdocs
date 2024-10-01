@@ -1,0 +1,23 @@
+---
+title: Docs for Conda Mode
+description: Installs SDK through Conda.
+---
+
+import {Aside } from '@astrojs/starlight/components';
+
+<Aside type="caution" title="Note">
+  When an SDK is not supported by VMR, but available in [Conda-Forge](https://conda-forge.org/packages/),
+  You can install the SDK using commands below. But you need to add Envs manually according to the hints from VMR.
+</Aside>
+
+## Search versions through Conda
+
+```bash
+vmr search -c sdk-name
+```
+
+## Install a version through Conda
+
+```bash
+vmr use -c sdk-name@version
+```

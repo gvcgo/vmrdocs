@@ -83,6 +83,14 @@ export default defineConfig({
 							},
 						},
 						{
+							label:"CondaDocs", 
+							link:"/guides/conda/",
+							translations:{
+								"zh-CN":"Conda相关",
+								"en":"Conda Related",
+							},
+						},
+						{
 							label:"FAQs", 
 							link:"/guides/faq/",
 							translations:{
