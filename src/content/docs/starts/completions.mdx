@@ -11,15 +11,15 @@ import { Tabs, TabItem, Aside } from "@astrojs/starlight/components";
   <TabItem label="Powershell" icon="seti:shell">
     vmr completion powershell >>
     .\Documents\WindowsPowerShell\vmr_completions.ps1 # Add following line to
-    powershell profile at $HOME\Documents\WindowsPowerShell\profile.ps1
+    powershell profile at $HOME\Documents\WindowsPowerShell\profile.ps1:
     Import-Module -Name "$HOME\Documents\WindowsPowerShell\vmr_completions.ps1"
   </TabItem>
   <TabItem label="Bash" icon="seti:shell">
     vmr completion bash >> ~/vmr_completions.sh # Add following line to bash
-    profile at $HOME/.bashrc source $HOME/vmr_completions.sh
+    profile at $HOME/.bashrc: source $HOME/vmr_completions.sh
   </TabItem>
   <TabItem label="zsh" icon="seti:shell">
     vmr completion zsh >> ~/vmr_completions.sh # Add following line to zsh
-    profile at $HOME/.zshrc source $HOME/vmr_completions.sh
+    profile at $HOME/.zshrc: source $HOME/vmr_completions.sh
   </TabItem>
 </Tabs>
