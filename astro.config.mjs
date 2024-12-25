@@ -57,6 +57,14 @@ export default defineConfig({
 								"en":"What's Supported?",
 							},
 						},
+						{ 
+							label: "Commands AutoCompletions", 
+							link: '/starts/completions/',
+							translations:{
+								"zh-CN":"命令行自动补全",
+								"en":"Commands AutoCompletions",
+							},
+						},
 					],
 				},
 				{

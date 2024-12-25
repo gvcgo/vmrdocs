@@ -1,0 +1,27 @@
+---
+title: vmr命令行自动补全.
+description: 为vmr设置命令行自动补全.
+---
+
+import { Tabs, TabItem, Aside } from "@astrojs/starlight/components";
+
+## 设置命令行自动补全.
+
+<Tabs>
+  <TabItem label="Powershell" icon="seti:shell">
+    vmr completion powershell >>
+    .\Documents\WindowsPowerShell\vmr_completions.ps1 #
+    将下面一行命令添加到Powershell的profile文件中（$HOME\Documents\WindowsPowerShell\profile.ps1）
+    Import-Module -Name "$HOME\Documents\WindowsPowerShell\vmr_completions.ps1"
+  </TabItem>
+  <TabItem label="Bash" icon="seti:shell">
+    vmr completion bash >> ~/vmr_completions.sh #
+    将下面一行命令添加到Bash的profile文件中（$HOME/.bashrc）： source
+    $HOME/vmr_completions.sh
+  </TabItem>
+  <TabItem label="zsh" icon="seti:shell">
+    vmr completion zsh >> ~/vmr_completions.sh #
+    将下面一行命令添加到zsh的profile文件中（$HOME/.zshrc）： source
+    $HOME/vmr_completions.sh
+  </TabItem>
+</Tabs>

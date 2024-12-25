@@ -16,33 +16,39 @@ hero:
       icon: github
 ---
 
-## 什么人比较适合用VMR？
+## 什么人比较适合用 VMR？
 
 - 多语言程序员
 - 懒人
 - 喜欢折腾新玩意的人
 
-import { Card, CardGrid, Icon } from '@astrojs/starlight/components';
+import { Card, CardGrid, Icon } from "@astrojs/starlight/components";
 
 ## 功能特点
 
 <CardGrid>
-	<Card title="跨平台" icon="list-format">
-		支持 Windows/MacOS/Linux.
-	</Card>
-	<Card title="支持多种SDK" icon="list-format">
-		支持[数以千计的SDK](/zh-cn/starts/sdklist/)和编程工具.
-	</Card>
-	<Card title="方便好用" icon="list-format">
-		受到lazygit启发，内置TUI，使用更符合直觉.
-	</Card>
-	<Card title="快速且稳定" icon="rocket">
-		因为VMR的版本信息都缓存在[vsources](https://gitee.com/moqsien/vsources)仓库.
-	</Card>
-	<Card title="无需插件" icon="puzzle">
-		无需烦人的插件，开箱即用.
-	</Card>
-	<Card title="支持对项目锁定SDK版本" icon="seti:lock">
-		每个项目都可以锁定不同的SDK版本，编辑器或者IDE打开模拟终端时，自动切换至锁定版本.
-	</Card>
+  <Card title="跨平台" icon="list-format">
+    支持 Windows/MacOS/Linux.
+  </Card>
+  <Card title="支持多种SDK" icon="list-format">
+    支持[数以千计的SDK](/zh-cn/starts/sdklist/)和编程工具.
+  </Card>
+  <Card title="方便好用" icon="list-format">
+    受到lazygit启发，内置TUI，使用更符合直觉.
+  </Card>
+  <Card title="人性化" icon="list-format">
+    同时支持命令行模式，照顾更多用户的习惯.
+  </Card>
+  <Card title="快速且稳定" icon="rocket">
+    因为VMR的版本信息都缓存在[vsources](https://gitee.com/moqsien/vsources)仓库.
+  </Card>
+  <Card title="无需插件" icon="puzzle">
+    无需烦人的插件，开箱即用.
+  </Card>
+  <Card title="支持对项目锁定SDK版本" icon="seti:lock">
+    每个项目都可以锁定不同的SDK版本，编辑器或者IDE打开模拟终端时，自动切换至锁定版本.
+  </Card>
+  <Card title="命令行自动补全" icon="list-format">
+    支持Shell命令自动补全. 目前支持的Shell有bash/zsh/powershell等.
+  </Card>
 </CardGrid>
