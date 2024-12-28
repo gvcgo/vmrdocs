@@ -9,14 +9,18 @@ import { Tabs, TabItem, Aside } from "@astrojs/starlight/components";
 
 <Tabs>
   <TabItem label="Windows" icon="seti:windows">
-    ```bash powershell -c "irm https://scripts.vmr.us.kg/windows | iex" ```
+    ```bash 
+    powershell -c "irm https://scripts.vmr.us.kg/windows | iex" 
+    ```
   </TabItem>
   <TabItem label="MacOS" icon="apple">
-    ```bash curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
+    ```bash 
+    curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
     ```
   </TabItem>
   <TabItem label="Linux" icon="linux">
-    ```bash curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
+    ```bash 
+    curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
     ```
   </TabItem>
 </Tabs>
@@ -34,16 +38,22 @@ import { Tabs, TabItem, Aside } from "@astrojs/starlight/components";
 
 <Tabs>
   <TabItem label="Windows" icon="seti:windows">
-    ```bash $env:all_proxy="http://127.0.0.1:xxxx" #
-    $env:all_proxy="socks5://127.0.0.1:xxxx" ```
+    ```bash 
+    $env:all_proxy="http://127.0.0.1:xxxx" #
+    $env:all_proxy="socks5://127.0.0.1:xxxx" 
+    ```
   </TabItem>
   <TabItem label="MacOS" icon="apple">
-    ```bash export ALL_PROXY="http://127.0.0.1:xxxx" # export
-    ALL_PROXY="socks5://127.0.0.1:xxxx" ```
+    ```bash 
+    export ALL_PROXY="http://127.0.0.1:xxxx" # export
+    ALL_PROXY="socks5://127.0.0.1:xxxx" 
+    ```
   </TabItem>
   <TabItem label="Linux" icon="linux">
-    ```bash export ALL_PROXY="http://127.0.0.1:xxxx" # export
-    ALL_PROXY="socks5://127.0.0.1:xxxx" ```
+    ```bash 
+    export ALL_PROXY="http://127.0.0.1:xxxx" # export
+    ALL_PROXY="socks5://127.0.0.1:xxxx" 
+    ```
   </TabItem>
 </Tabs>
 
