@@ -5,44 +5,8 @@ description: Setup shell completions for vmr.
 
 ## Setup shell completions for vmr.
 
-### Setup for Powershell
-
-- Save vmr auto-completion script to Powershell script file.
+Use the following command to set up shell completions for vmr. Powershell, bash, zsh and fish are supported.
 
 ```bash
-vmr completion powershell >> %HOMEPATH%\Documents\WindowsPowerShell\vmr_completions.ps1
-```
-
-- Add the line below to Powershell profile file(%HOMEPATH%\Documents\WindowsPowerShell\profile.ps1)
-
-```bash
-Import-Module -Name "%HOMEPATH%\Documents\WindowsPowerShell\vmr_completions.ps1"
-```
-
-### Setup for bash
-
-- Save vmr auto-completion script to bash script file.
-
-```bash
-vmr completion bash >> ~/vmr_completions.sh
-```
-
-- Add the line below to bash profile file($HOME/.bashrc)
-
-```bash
-source $HOME/vmr_completions.sh
-```
-
-### Setup for zsh
-
-- Add the line below to zsh profile file($HOME/.zshrc)
-
-```bash
-vmr completion zsh >> ~/vmr_completions.sh
-```
-
-- Add the line below to zsh profile file($HOME/.zshrc)
-
-```bash
-source $HOME/vmr_completions.sh
+vmr ac
 ```
