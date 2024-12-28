@@ -3,7 +3,7 @@ title: Docs For CLI
 description: How to use VMR in CLI Mode.
 ---
 
-import {Aside } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
 
 ## Set Proxy
 
@@ -49,6 +49,12 @@ vmr search <sdk-name>
 vmr installed-sdks 
 ```
 
+## Show local installed SDKs and their versions.
+
+```bash
+vmr installed-info 
+```
+
 ## Show local installed versions for an SDK.
 
 ```bash
@@ -84,6 +90,21 @@ vmr uninstall <sdk-name@version>
 ```bash
 vmr uninstall <sdk-name@all>
 ```
+
+## Add auto-completions for shell.
+
+```bash
+vmr add-completions 
+```
+
+## Allow/Disallow nested sessions.
+
+```bash
+vmr nested-sessions
+```
+<Aside type="caution" title="Note">
+  You should never use nested sessions and lock file at the same time. Or vmr will start a new session every time you run the cd command.
+</Aside>
 
 ## SDK List not found?
 

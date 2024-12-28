@@ -49,6 +49,12 @@ vmr search <sdk-name>
 vmr installed-sdks 
 ```
 
+## 显示已通过VMR安装的SDK以及它们的所有版本信息
+
+```bash
+vmr installed-info 
+```
+
 ## 搜索某个SDK的已安装版本
 
 ```bash
@@ -84,6 +90,21 @@ vmr uninstall <sdk-name@version>
 ```bash
 vmr uninstall <sdk-name@all>
 ```
+
+## 一键开启命令行自动补全功能
+
+```bash
+vmr add-completions 
+```
+
+## 开启或关闭嵌套sessions.
+
+```bash
+vmr nested-sessions
+```
+<Aside type="caution" title="Note">
+  注意不要同时使用锁定版本和嵌套sessions功能！否则，一直cd，一直新建session，会很酸爽。
+</Aside>
 
 ## SDK列表没找到?
 
