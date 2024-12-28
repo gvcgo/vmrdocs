@@ -5,18 +5,18 @@ description: Setup shell completions for vmr.
 
 ## Setup shell completions for vmr.
 
-### Setup for Windows Powershell
+### Setup for Powershell
 
 - Save vmr auto-completion script to Powershell script file.
 
 ```bash
-vmr completion powershell >> \Documents\WindowsPowerShell\vmr_completions.ps1
+vmr completion powershell >> %HOMEPATH%\Documents\WindowsPowerShell\vmr_completions.ps1
 ```
 
-- Add the line below to Powershell profile file($HOME\Documents\WindowsPowerShell\profile.ps1)
+- Add the line below to Powershell profile file(%HOMEPATH%\Documents\WindowsPowerShell\profile.ps1)
 
 ```bash
-Import-Module -Name "$HOME\Documents\WindowsPowerShell\vmr_completions.ps1"
+Import-Module -Name "%HOMEPATH%\Documents\WindowsPowerShell\vmr_completions.ps1"
 ```
 
 ### Setup for bash

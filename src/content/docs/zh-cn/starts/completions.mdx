@@ -5,18 +5,18 @@ description: 为vmr设置命令行自动补全.
 
 ## 设置命令行自动补全.
 
-### Windows Powershell 下设置 VMR 命令自动补全
+### Powershell 下设置 VMR 命令自动补全
 
 - 将 VMR 命令行自动补全脚本保存到 powershell 脚本中
 
 ```bash
-vmr completion powershell >> \Documents\WindowsPowerShell\vmr_completions.ps1
+vmr completion powershell >> %HOMEPATH%\Documents\WindowsPowerShell\vmr_completions.ps1
 ```
 
-- 将下面一行命令添加到 Powershell 的 profile 文件($HOME\Documents\WindowsPowerShell\profile.ps1)中
+- 将下面一行命令添加到 Powershell 的 profile 文件(%HOMEPATH%\Documents\WindowsPowerShell\profile.ps1)中
 
 ```bash
-Import-Module -Name "$HOME\Documents\WindowsPowerShell\vmr_completions.ps1"
+Import-Module -Name "%HOMEPATH%\Documents\WindowsPowerShell\vmr_completions.ps1"
 ```
 
 ### MacOS/Linux bash 下设置 VMR 命令自动补全
