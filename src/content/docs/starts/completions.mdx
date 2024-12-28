@@ -3,23 +3,46 @@ title: Shell completions.
 description: Setup shell completions for vmr.
 ---
 
-import { Tabs, TabItem, Aside } from "@astrojs/starlight/components";
+## Setup shell completions for vmr.
 
-## Setup completions for diffrent shells.
+### Setup for Windows Powershell
 
-<Tabs>
-  <TabItem label="Powershell" icon="seti:shell">
-    vmr completion powershell >>
-    .\Documents\WindowsPowerShell\vmr_completions.ps1 # Add following line to
-    powershell profile at $HOME\Documents\WindowsPowerShell\profile.ps1:
-    Import-Module -Name "$HOME\Documents\WindowsPowerShell\vmr_completions.ps1"
-  </TabItem>
-  <TabItem label="Bash" icon="seti:shell">
-    vmr completion bash >> ~/vmr_completions.sh # Add following line to bash
-    profile at $HOME/.bashrc: source $HOME/vmr_completions.sh
-  </TabItem>
-  <TabItem label="zsh" icon="seti:shell">
-    vmr completion zsh >> ~/vmr_completions.sh # Add following line to zsh
-    profile at $HOME/.zshrc: source $HOME/vmr_completions.sh
-  </TabItem>
-</Tabs>
+- Save vmr auto-completion script to Powershell script file.
+
+```bash
+vmr completion powershell >> \Documents\WindowsPowerShell\vmr_completions.ps1
+```
+
+- Add the line below to Powershell profile file($HOME\Documents\WindowsPowerShell\profile.ps1)
+
+```bash
+Import-Module -Name "$HOME\Documents\WindowsPowerShell\vmr_completions.ps1"
+```
+
+## Setup for bash
+
+- Save vmr auto-completion script to bash script file.
+
+```bash
+vmr completion bash >> ~/vmr_completions.sh
+```
+
+- Add the line below to bash profile file($HOME/.bashrc)
+
+```bash
+source $HOME/vmr_completions.sh
+```
+
+## Setup for zsh
+
+- Add the line below to zsh profile file($HOME/.zshrc)
+
+```bash
+vmr completion zsh >> ~/vmr_completions.sh
+```
+
+- Add the line below to zsh profile file($HOME/.zshrc)
+
+```bash
+source $HOME/vmr_completions.sh
+```
