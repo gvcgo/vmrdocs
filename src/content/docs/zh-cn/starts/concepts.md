@@ -12,6 +12,10 @@ description: 关于一些概念的解释.
 
 当使用**全局**模式安装SDK时，环境变量才会被持久化到vmr.sh中，否则不会。所以，如果想要环境变量一直可用，请使用**全局模式**。详见[这里](https://vdocs.vmr.us.kg/zh-cn/guides/tutorial/#%E5%8F%AF%E5%AE%89%E8%A3%85%E7%89%88%E6%9C%AC%E5%88%97%E8%A1%A8%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BF%AB%E6%8D%B7%E6%8C%89%E9%94%AE%E6%8F%90%E7%A4%BA)。
 
+如果你的当前Shell处于session模式，而你在当前Shell中以全局模式安装了SDK，那么source命令将无法加载新安装的SDK。这时候，你需要使用vmr定制的命令别名**svmr**来刷新环境变量。
+
+如果你想要查看当前Shell是否处于session模式，可以使用命令**vmr ism**。
+
 ## TUI是什么？
 
 看看[维基百科](https://en.wikipedia.org/wiki/Text-based_user_interface). 你可以使用下面的命令来打开VMR的TUI.

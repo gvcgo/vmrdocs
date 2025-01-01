@@ -12,6 +12,11 @@ There are several concepts to be explained before we start using VMR.
 
 When an SDK is installed in **Global Mode**, the envs are added to vmr.sh. Otherwise, not.
 
+If your current shell is in session mode, and you have installed an SDK for global mode, then the source command will not work.
+In this case, you need to use the customed alias **svmr** to flush the envs.
+
+If you need to see whether the current shell is in session mode or not, you should use command **vmr ism**.
+
 ## TUI
 
 See [wikipedia](https://en.wikipedia.org/wiki/Text-based_user_interface). You can open TUI using command below.
