@@ -106,6 +106,17 @@ vmr nested-sessions
   注意不要同时使用锁定版本和嵌套sessions功能！否则，一直cd，一直新建session，会很酸爽。
 </Aside>
 
+##  显示当前Shell是否处于session模式
+
+```bash
+vmr is-session-mode
+```
+<Aside type="caution" title="Note">
+  注意，一般情况下，不推荐一直在session模式下工作，等到用完，记得使用exit命令退出session模式，或者直接关闭terminal。
+  如果在session模式的shell中，使用全局模式安装SDK，那么在使用source命令刷新环境变量时，不会成功加载新安装的SDK。
+  这时候可以使用vmr定制的命令别名svmr来刷新环境变量。
+</Aside>
+
 ## SDK列表没找到?
 
 <Aside type="caution" title="Note">

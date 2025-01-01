@@ -106,6 +106,17 @@ vmr nested-sessions
   You should never use nested sessions and lock file at the same time. Or vmr will start a new session every time you run the cd command.
 </Aside>
 
+##  Show the mode of crrent shell.
+
+```bash
+vmr is-session-mode
+```
+<Aside type="caution" title="Note">
+  Note that session mode is not recommended for common use. So you should close the terminal or use exit command to terminate session mode.
+  If you have installed an SDK in a session-mode shell using global mode, then the source command will not work. 
+  You can then use the customed alias svmr to flush envs.
+</Aside>
+
 ## SDK List not found?
 
 <Aside type="caution" title="Note">
