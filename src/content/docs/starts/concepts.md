@@ -26,7 +26,7 @@ vmr
 
 ## Reverse Proxy
 
-For reverse proxy, we refers to **"https://proxy.vmr.us.kg/proxy/"**, which is used to speedup the downloads for SDKs.
+For reverse proxy, we refers to **"https://proxy.0002099.xyz/proxy"**, which is used to speedup the downloads for SDKs.
 
 ## Lock the SDK version for a project.
 
