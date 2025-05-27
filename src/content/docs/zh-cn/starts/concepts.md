@@ -25,7 +25,7 @@ vmr
 
 ## 反向代理
 
-这里说的反向代理, 我们指的是 **"https://proxy.0002099.xyz/proxy"**, 可用于加速一些国内下载比较慢的SDK，例如，来自github release的SDK.
+这里说的反向代理, 我们指的是 **"https://proxy.vmr.dpdns.org/proxy"**, 可用于加速一些国内下载比较慢的SDK，例如，来自github release的SDK.
 
 ## 针对项目锁定SDK版本
 

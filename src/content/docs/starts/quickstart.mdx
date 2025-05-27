@@ -9,20 +9,20 @@ import { Tabs, TabItem, Aside } from "@astrojs/starlight/components";
 
 <Tabs>
   <TabItem label="Windows" icon="seti:windows">
-    ```bash 
-    powershell -c "irm https://scripts.0002099.xyz/windows | iex" 
+    ```bash
+    powershell -c "irm https://scripts.vmr.dpdns.org/windows | iex"
     ```
   </TabItem>
 
 <TabItem label="MacOS" icon="apple">
-  ```bash 
-  curl --proto '=https' --tlsv1.2 -sSf https://scripts.0002099.xyz | sh
+  ```bash
+  curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.dpdns.org | sh
   ```
 </TabItem>
 
   <TabItem label="Linux" icon="linux">
-    ```bash 
-    curl --proto '=https' --tlsv1.2 -sSf https://scripts.0002099.xyz | sh
+    ```bash
+    curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.dpdns.org | sh
     ```
   </TabItem>
 </Tabs>
@@ -42,26 +42,26 @@ Enable a proxy for your terminal.
 
 <Tabs>
   <TabItem label="Windows" icon="seti:windows">
-    ```bash 
+    ```bash
     $env:all_proxy="http://127.0.0.1:xxxx" #
-    $env:all_proxy="socks5://127.0.0.1:xxxx" 
+    $env:all_proxy="socks5://127.0.0.1:xxxx"
     ```
   </TabItem>
 
 <TabItem label="MacOS" icon="apple">
-  ```bash 
+  ```bash
   export ALL_PROXY="http://127.0.0.1:xxxx" # export
-  ALL_PROXY="socks5://127.0.0.1:xxxx" 
+  ALL_PROXY="socks5://127.0.0.1:xxxx"
   ```
 </TabItem>
 
   <TabItem label="Linux" icon="linux">
-    ```bash 
+    ```bash
     export ALL_PROXY="http://127.0.0.1:xxxx" # export
-    ALL_PROXY="socks5://127.0.0.1:xxxx" 
+    ALL_PROXY="socks5://127.0.0.1:xxxx"
     ```
   </TabItem>
-  
+
 </Tabs>
 
 ## Can I customize the Installation Dir for SDKs?

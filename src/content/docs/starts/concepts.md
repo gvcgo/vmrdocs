@@ -26,13 +26,13 @@ vmr
 
 ## Reverse Proxy
 
-For reverse proxy, we refers to **"https://proxy.0002099.xyz/proxy"**, which is used to speedup the downloads for SDKs.
+For reverse proxy, we refers to **"https://proxy.vmr.dpdns.org/proxy"**, which is used to speedup the downloads for SDKs.
 
 ## Lock the SDK version for a project.
 
 VMR will generate a file named ".vmr.lock" in the project. This file will be used for checking the SDK versions for current project by VMR. For details, see [here](https://vdocs.vmr.us.kg/guides/tutorial/#key-map-hints-for-available-version-list).
 
-<!-- 
+<!--
 # Plugins for Neovim
 - [fd](https://github.com/sharkdp/fd)
 - [fzf](https://github.com/junegunn/fzf)
